@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_title %}
+  URL Shortener
+{% endblock %}
+
+{% block css_file %}
+  <link rel="stylesheet" href="{% static "shortner/home.css" %}">
+{% endblock %}
+
+{% block content %}
+  {% include "./includes/include.html" %}
+{% endblock %}

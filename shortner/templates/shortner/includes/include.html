@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="header">URL Shortener</h1>
+
+  <form id="post-form" method="POST" action="{% url "generate-url" %}">
+
+    {% csrf_token %}
+    <input id="link" type="text" name="link" placeholder="Enter Url here">
+    <div class="buttons">
+      <input type="submit" id="shorten" value="Shorten" />
+    </div>
+
+  </form>
+
+</div>

@@ -1,0 +1,64 @@
+.container{
+  margin: 5rem 21.5rem 0rem;
+  width: 50%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 25rem;
+  border: 5px solid #336699;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.26);
+  background-color: white;
+}
+
+.header{
+  margin-top: 0rem;
+  padding: 2rem;
+  width: 90.5%;
+  max-width: 50rem;
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #336699;
+}
+
+#post-form {
+  margin-top: -1.5rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 40rem;
+  background-color: white;
+}
+
+#link,
+.buttons {
+  margin-top: -2rem;
+  margin-left: -2rem;
+  width: 100%;
+  max-width: 40rem;
+  padding: 2rem;
+  border: 2px solid #123DAE;
+}
+
+.buttons {
+  height: 2rem;
+  background-color: #336699;
+}
+
+#shorten{
+  margin-left: 13rem;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 2rem;
+  font-family: bold;
+  border: 1px solid #336699;
+  background-color: #336699;
+}
+
+.url-part {
+  margin: -7.5rem 0rem 0rem 1rem;
+  color: black;
+  text-align: center;
+}

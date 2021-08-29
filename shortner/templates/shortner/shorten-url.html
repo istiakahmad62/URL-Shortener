@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_title %}
+  URL Shortener - Generator Page
+{% endblock %}
+
+{% block css_file %}
+  <link rel="stylesheet" href="{% static "shortner/home.css" %}">
+{% endblock %}
+
+{% block content %}
+  {% include "./includes/include.html" %}
+
+  <section class="url-part">
+    <h3>localhost:8000/{{uid}}</h3>
+  </section>
+{% endblock %}
